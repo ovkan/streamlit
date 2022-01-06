@@ -74,17 +74,10 @@ Fig_VI_DF.update_layout(
 Fig_VI_DF.update_xaxes(showline=True, linecolor='grey')
 Fig_VI_DF.update_yaxes(showline=True, linecolor='grey')
 #%%
-print(VI_DF)
-#%%
 #Ulkoasu
 st.set_page_config(
      page_title="Asumisen ja rakentamisen tilannekuva V0.1",
-     page_icon="🧊",
-     layout="wide",
-     initial_sidebar_state="expanded",
-     menu_items={
-         'Get Help': 'https://www.extremelycoolapp.com/help'
-     }
+     layout="wide"
  )
 
 st.title('Asumisen ja rakentamisen yleiskuva v0.1')
