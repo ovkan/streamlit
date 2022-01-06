@@ -100,13 +100,6 @@ with col2:
     st.plotly_chart(Fig_VA_DF, use_container_width=True)
     st.plotly_chart(Fig_VA_DF_yht, use_container_width=True)
 
-#Kela scrape
-#http://raportit.kela.fi/linkki/39070756
-
-#Kartat
-#https://towardsdatascience.com/lets-make-a-map-using-geopandas-pandas-and-matplotlib-to-make-a-chloropleth-map-dddc31c1983d
-
-#st.dataframe(data=VA_DF)
 
 
 
