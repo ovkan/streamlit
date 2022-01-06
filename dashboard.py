@@ -89,6 +89,7 @@ st.set_page_config(
 
 st.title('Asumisen ja rakentamisen yleiskuva v0.1')
 st.text('Laajenna kuvio klikkaamalla oikeasta yläkulmasta.')
+st.text('Twitter @OttoKannisto')
 st.markdown('[Tilastokeskuksen tiedot Statfin-tietokannasta](https://pxnet2.stat.fi/PXWeb/pxweb/fi/StatFin/)')
 col1, col2 = st.columns(2)
 with col1:
