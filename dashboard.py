@@ -1,11 +1,10 @@
-#%%
 #Kirjastot
-import streamlit as st
-#%%
-import pandas as pd
 import plotly.express as px
+import streamlit as st
+import pandas as pd
 from pyjstat import pyjstat
-import plotly.graph_objects as go #Huom lisää requiremnts.txt
+import plotly.graph_objects as go 
+
 #%%
 #Statfin-haku funktio
 def SFhaku(URL):
